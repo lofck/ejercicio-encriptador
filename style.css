@@ -1,0 +1,165 @@
+header {
+    background: rgba(54, 122, 171, 0.842);
+    height: 120px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logo {
+
+    width: 60px;
+    height: 60px;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.kamehouse {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo-principal {
+    position: absolute;
+    top: 40px;
+    /* Coloca el h1 en el centro vertical */
+    left: 50%;
+    /* Coloca el h1 en el centro horizontal */
+    transform: translate(-50%, -50%);
+    /* Centra exactamente en el centro */
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    color: rgb(254, 236, 214);
+    font-weight: bold;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.input-usuario {
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.texto-1 {
+    width: 300px;
+    /* Ajusta el ancho según tus necesidades */
+    height: 452px;
+    /* Ajusta la altura según tus necesidades */
+    resize: none;
+    background: rgba(255, 255, 255, 0.5);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.texto-1:focus {
+    border-radius: 8px;
+    border-color: orange;
+
+}
+
+
+
+.encriptar,
+.desencriptar {
+
+    width: 100px;
+    background: rgba(0, 255, 255, 0.397);
+    color: orange;
+    cursor: pointer;
+    margin: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    border-style: solid;
+
+    border-color: orange;
+
+}
+
+.encriptar:hover,
+.desencriptar:hover {
+    transition: 300ms;
+    background: rgba(255, 255, 0, 0);
+}
+
+.encriptar:active,
+.desencriptar:active {
+    transition: 50ms;
+    background: red;
+}
+
+.texto2 {
+    width: 300px;
+    /* Ajusta el ancho según tus necesidades */
+    height: 452px;
+    /* Ajusta la altura según tus necesidades */
+    resize: none;
+    background: rgba(255, 255, 255, 0.5);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+    position: absolute;
+    top: 43.5%;
+    left: 680px;
+    /* Alinea en el centro vertical */
+
+    /* Coloca a la derecha con un valor similar al left de texto-1 */
+    transform: translate(50%, -50%);
+    /* Centra exactamente en el centro */
+
+}
+
+.pie-de-pagina {
+    background: rgb(68, 107, 44);
+    /* Color de fondo del pie de página */
+    color: #fff;
+    /* Color del texto del pie de página */
+    text-align: center;
+    padding: 10px;
+    position: static;
+
+    bottom: 0;
+    width: 100%;
+
+}
+
+.creditos {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+    font-weight: bold;
+
+
+}
+
+.dedicatoria {
+    font-size: 11px;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+
+
+
+    font-weight: bold;
+
+
+}
+
+/* PROXIMAMENTE SE HARA LA PAGINA RESPONSIVE */
